@@ -34,8 +34,8 @@ function write (obj, sentence, i, cb) {
      }
 
 var sentences = [
-  "am a Commerce student. ",
   "am Indian. ",
+  "am a Commerce student. ",
   "like to know about technology. ",
   "am Arnab Pal. "
 ]
