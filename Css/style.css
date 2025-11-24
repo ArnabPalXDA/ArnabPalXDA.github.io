@@ -18,6 +18,7 @@ body, html {
     height: 100%;
     margin: 0%;
     padding: 0%;
+    
 }
 
 .container {
@@ -31,17 +32,16 @@ body, html {
 }
 
 .content-box {
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0, 34, 38, 0.394);
     border: 3px solid #f1f1f1;
-    border-radius: 4px;
+    border-radius: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 70%;
-    padding: 20px;
+    width: 60%;
+    padding: 40px;
     text-align: center;
 
 }
@@ -49,7 +49,7 @@ body, html {
 .avatar {
     height: 200px;
     border: 3px solid #f1f1f1;
-    border-radius: 100px;
+    border-radius: 60px;
 }
 
 .text {
@@ -60,11 +60,12 @@ body, html {
 }
 
 .icon {
-    width: 30px;
+    width: 20px;
+    border-radius: 50px;
 }
 
 .social {
-    line-height:50px;
+    line-height:40px;
 }
 
 a {
