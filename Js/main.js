@@ -34,10 +34,10 @@ function write (obj, sentence, i, cb) {
      }
 
 var sentences = [
-  " am Arnab Pal. ",
-  " am Indian. ",
-  " am a Commerce student. ",
-  " like to know about technology. "
+  " am Arnab Pal",
+  " am Indian",
+  " am a Commerce student",
+  " like to know about technology"
 ]
   
 var counter = 0
