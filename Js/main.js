@@ -21,7 +21,7 @@ function write (obj, sentence, i, cb) {
      erase(obj, cb)
       }, 10/(i*(i/10000000)))
       } else {
-      obj.innerText = " "
+      obj.innerText = "<<"
       cb()
    }
   }
@@ -34,10 +34,13 @@ function write (obj, sentence, i, cb) {
      }
 
 var sentences = [
-  " am Arnab Pal",
-  " am Indian",
-  " am a Commerce student",
-  " like to know about technology"
+  "am Arnab Pal",
+  "am Indian",
+  "am a Commerce student",
+  "love coding",
+  "love open source",
+  "love Android Development",
+  "love learning new things"
 ]
   
 var counter = 0

@@ -25,7 +25,7 @@ body, html {
     background-image: url("background.jpg");
     filter: blur(8px);
     -webkit-filter: blur(8px);
-    height: 700px;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,10 +40,9 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 45%;
+    width: 55%;
     padding: 40px;
     text-align: center;
-
 }
 
 .avatar {
@@ -54,9 +53,11 @@ body, html {
 
 .text {
     font-family: 'Texturina';
-    font-size: calc(var(--text-scale-unit) * 3.5);
+    font-size: calc(var(--text-scale-unit) * 3.0);
     letter-spacing: 2px;
     color: #f1f1f1;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .icon {
