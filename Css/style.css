@@ -43,15 +43,9 @@
     transform-origin: 90px 95px;
 }
 
-html {
-    height: 80%;
-    margin: 0%;
-    padding: 0%;
-    
-}
-
 body {
     background-color: #000000;
+	backgroun-size: fill;
 }
 svg {
     position: fixed;
@@ -86,7 +80,7 @@ svg {
 
 .text {
     font-family: 'Texturina';
-    font-size: calc(var(--text-scale-unit) * 3.0);
+    font-size: calc(var(--text-scale-unit) * 3.5);
     letter-spacing: 2px;
     color: #ffffff;
     margin-top: 10px;
