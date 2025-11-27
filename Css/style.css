@@ -47,7 +47,7 @@ body {
     background-color: #000000;
 	backgroun-size: fill;
 }
-svg {
+.svg {
     position: fixed;
     top: 0;
     left: 0;
