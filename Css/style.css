@@ -14,26 +14,56 @@
    src: url(Texturina.ttf);
 }
 
-body, html {
+ @keyframes rotate {
+	0% {
+    transform: rotate(0deg);
+}
+    100% {
+    transform: rotate(360deg);
+}
+}
+.out-top {
+    animation: rotate 14s linear infinite;
+    transform-origin: 30px 35px;
+}
+.in-top {
+    animation: rotate 7s linear infinite;
+    transform-origin: 25px 20px;
+}
+.middel {
+    animation: rotate 10s linear infinite;
+    transform-origin: 40px 40px;
+}
+.out-bottom {
+    animation: rotate 14s linear infinite;
+    transform-origin: 85px 90px;
+}
+.in-bottom {
+    animation: rotate 7s linear infinite;
+    transform-origin: 90px 95px;
+}
+
+html {
     height: 100%;
     margin: 0%;
     padding: 0%;
     
 }
 
-.container {
-    background-image: url("background.jpg");
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+    background-color: #000000;
+}
+svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
 }
 
 .content-box {
-    background-color: rgba(0, 34, 38, 0.394);
-    border: 3px solid #f1f1f1;
+    background-color: rgba(97, 97, 98, 0.538);
+    border: 1.2px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 50%;
@@ -41,23 +71,26 @@ body, html {
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 55%;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
+    box-shadow: #000000d0 2px 2px 5px;
 }
 
 .avatar {
     height: 200px;
-    border: 3px solid #f1f1f1;
+    border: 4px solid #f1f1f1;
     border-radius: 60px;
+    box-shadow: #000000 3px 4px 4px 6px;
 }
 
 .text {
     font-family: 'Texturina';
     font-size: calc(var(--text-scale-unit) * 3.0);
     letter-spacing: 2px;
-    color: #f1f1f1;
+    color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-shadow: #000000 5px 10px 12px;
 }
 
 .icon {
@@ -66,7 +99,7 @@ body, html {
 }
 
 .social {
-    line-height:40px;
+    line-height:30px;
 }
 
 a {
@@ -83,33 +116,44 @@ a {
     margin: 0 2px;
 }
 
+.content-box:hover {
+    box-shadow: #000000e8 6px 6px 8px 7px;
+    transition: 0.3s;
+}
+
 .fa-facebook:hover {
     background: #3B5998;
     border-radius: 100px;
     transition: 0.3s;
+    box-shadow: #000000 4px 4px 10px;
 }
 .fa-instagram:hover {
     background: #bc2a8d;
     border-radius: 100px;
     transition: 0.3s;
+    box-shadow: #000000 4px 4px 10px;
 }
 .fa-times:hover {
     background: #000000;
     border-radius: 100px;
     transition: 0.3s;
+    box-shadow: #000000 4px 4px 10px;
 }
 .fa-github:hover {
     background: #000000;
     border-radius: 100px;
     transition: 0.3s;
+    box-shadow: #000000 4px 4px 10px;
 }
 .fa-telegram:hover {
     background: #0088cc;
     border-radius: 100px;
     transition: 0.3s;
+    box-shadow: #000000 4px 4px 10px;
 }
 .fa-envelope:hover {
     background: #dd4b39;
     border-radius: 100px;
     transition: 0.3s;
+    box-shadow: #000000 4px 4px 10px;
 }
