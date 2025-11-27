@@ -65,7 +65,7 @@ svg {
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 65%;
-	height: 80%;
+	height: auto;
     padding: 30px;
     text-align: center;
     box-shadow: #000000d0 2px 2px 5px;
