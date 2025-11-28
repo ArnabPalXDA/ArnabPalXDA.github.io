@@ -73,6 +73,10 @@
     border-radius: 20px;
     margin-bottom: 10px;
     box-shadow: #000000d0 2px 2px 5px;
+	filter: contrast(0.15);
+    filter: brightness(1.3);
+    filter: saturate(0.8);
+    filter: opacity(230%);
 }
 
 .text {
