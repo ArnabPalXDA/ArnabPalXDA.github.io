@@ -37,9 +37,8 @@ var sentences = [
   "am Arnab Pal",
   "am Indian",
   "am a Commerce student",
-  "love coding",
-  "love open source",
-  "love Android Development",
+  "love Programming",
+  "love OS Development",
   "love learning new things"
 ]
   
